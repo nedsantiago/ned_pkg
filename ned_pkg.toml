@@ -1,0 +1,18 @@
+[project]
+name = "Ned Santiago's Package"
+version = "0.0.1"
+authors = [
+  { name="Ned Santiago", email="NedSantiago@tutanota.com" },
+]
+description = "This is a package containing some of my most used modules. This was made for the owner's convenience to reuse code."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/nedsantiago"
+Issues = "#"
