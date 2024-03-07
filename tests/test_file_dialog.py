@@ -12,7 +12,7 @@
 
 import pytest
 # import module to test
-from ..file_dialog import *
+from ..src.file_dialog import *
 
 
 def test_request_open_folder_is_str():

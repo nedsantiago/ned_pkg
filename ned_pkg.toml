@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=65.5.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "Ned Santiago's Package"
 version = "0.0.1"

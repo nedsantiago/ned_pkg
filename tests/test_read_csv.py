@@ -13,7 +13,7 @@
 import pytest
 import io
 # import module to test
-from ..read_csv import *
+from ..src.read_csv import *
 
 
 def test_dict_read_csv():
