@@ -32,6 +32,7 @@ def request_open_folder(note) -> str:
         title = note
     )
 
+    root.destroy()
     return folder_dir
 
 def request_open_file(note) -> str:
@@ -44,6 +45,7 @@ def request_open_file(note) -> str:
         title = note
     )
 
+    root.destroy()
     return file_dir
 
 def request_write_file(note) -> str:
@@ -56,4 +58,5 @@ def request_write_file(note) -> str:
         title = note
     )
 
+    root.destroy()
     return file_dir
