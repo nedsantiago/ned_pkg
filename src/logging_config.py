@@ -10,7 +10,7 @@
 import logging.config
 
 # log module configuration
-LOGGING_GRAPH_NETWORK = {
+LOG_CONFIG = {
     "version": 1,
     "disable_existing_loggers": False,
     "formatters": {
@@ -28,4 +28,4 @@ LOGGING_GRAPH_NETWORK = {
     "loggers": {"": {"handlers": ["stdout"], "level": "DEBUG"}},
 }
 
-logging.config.dictConfig(LOGGING_GRAPH_NETWORK)
+logging.config.dictConfig(LOG_CONFIG)
